@@ -53,7 +53,7 @@
   </dmn:decision>
   <dmn:decision id="_B5CE8062-DE62-4C37-BE5C-CEF3087688B1" name="Banned List">
     <dmn:extensionElements/>
-    <dmn:variable id="_BDFA4929-6DAC-45B3-A47C-57874636247A" name="Banned List"/>
+    <dmn:variable id="_BDFA4929-6DAC-45B3-A47C-57874636247A" name="Banned List" typeRef="string"/>
     <dmn:list id="_19713A4D-91E4-43B8-8A97-D60AE37485B5">
       <dmn:literalExpression id="_DE99E5A1-F85C-4E3A-8913-5E4FF7C009E0">
         <dmn:text>"Chucky"</dmn:text>
