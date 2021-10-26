@@ -15,9 +15,9 @@
     <dmn:extensionElements/>
     <dmn:variable id="_E42710CB-3091-4207-A878-1D6C542F00F1" name="Guest" typeRef="Guest"/>
   </dmn:inputData>
-  <dmn:inputData id="_E20C721C-9101-43D7-9B5D-2B443C28EF3F" name="PlannedDate">
+  <dmn:inputData id="_E20C721C-9101-43D7-9B5D-2B443C28EF3F" name="Planned Date">
     <dmn:extensionElements/>
-    <dmn:variable id="_EDE6B996-4F4C-408A-8149-3BBB16B19FA1" name="PlannedDate" typeRef="PlannedDate"/>
+    <dmn:variable id="_EDE6B996-4F4C-408A-8149-3BBB16B19FA1" name="Planned Date" typeRef="PlannedDate"/>
   </dmn:inputData>
   <dmn:decision id="_4CCA2AA9-36C7-4339-B5AA-0D18464BA289" name="Guest Can Party">
     <dmn:extensionElements/>
@@ -35,7 +35,7 @@
       <dmn:contextEntry>
         <dmn:variable id="_4A8D3929-A39D-4D56-B449-99BAF386F230" name="Above18" typeRef="boolean"/>
         <dmn:literalExpression id="_4561E438-4A35-443B-BE60-5AE0BAAC6467">
-          <dmn:text>(PlannedDate - Guest.birthdate) &gt;= duration("PT157680H")</dmn:text>
+          <dmn:text>(Planned Date - Guest.birthdate) &gt;= duration("PT157680H")</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
       <dmn:contextEntry>
@@ -108,7 +108,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="360" y="234.66593811898085" width="100" height="50"/>
+        <dc:Bounds x="360" y="234.66593811898088" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_4CCA2AA9-36C7-4339-B5AA-0D18464BA289" dmnElementRef="_4CCA2AA9-36C7-4339-B5AA-0D18464BA289" isCollapsed="false">
